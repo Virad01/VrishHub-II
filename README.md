@@ -1,2 +1,2 @@
 # VrishHub
-This  Project is Minor 1 Project 
+VrishHub is an ML-backed Web Platform that will help you in overcoming all the hassles of Stock Trading.  VrishHub will analyze your Stock Portfolio and with your data of previous decisions and it will assess changes in the stocks after your sold or bought them for providing you with the best options to go for.  Unlike other Algorithmic Trading platforms, GrowKar will give you personalized solutions. 
