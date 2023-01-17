@@ -1,3 +1,107 @@
+/*.navbar-brand{
+    width: 80px;
+    height: 80px;
+    position:relative;
+    /* overflow:hidden; 
+    margin-top: -6px;
+}
+
+nav {
+    position: relative;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    background-color: rgba(58, 55, 60, 0.596);
+}
+
+nav ul {
+    list-style:none;
+    margin: 0;
+    padding: .4em 4em;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0;
+    padding: .2em .7em;
+}
+
+nav a {
+    width: 100%;
+    height: 100%;
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 1.15em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    transition: .25s ease-in-out;
+}
+
+nav a:hover {
+    color: rgb(200, 62, 62);
+}
+
+.nav-bg {
+    content: '';
+    position: absolute;
+    display: block;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(178, 178, 179, 0.56);
+    transition: .45s ease-in-out;
+    
+}
+*/
+*{transition:all 0.3s ease-in-out;}
+
+.container{
+  clear:both;
+  overflow:hidden;
+  position: relative; 
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 34px;
+    
+
+}
+
+
+nav{float:right;}
+
+.logo img{float:left; width: 4%; padding-top: 0.2%;}
+
+ul li{
+  display:inline-block; 
+  padding:10px;
+  font-size:20px; font-family:raleway;
+}
+
+ul li:hover{
+  color:orange;
+  
+}
+.bg-hidden {
+    top: -100%;
+    opacity: 0;
+}
+
+.bg-visible {
+    top: 0;
+    opacity: 1;
+}
+
+
+
+/* 
+
 .nav-bg {
    content: '';
    position: absolute;
@@ -10,20 +114,8 @@
    transition: .45s ease-in-out;
    
 }
-#main{
-    position:absolute;
- 
-   
-}
+ */
 
-
-#logo{
-  
-  
- 
-    position:absolute;
-
-}
  
 /* toggle bar */
 
@@ -32,7 +124,7 @@ html, body {
     height: 100%;
 }
 body {
-    background: rgb(238, 234, 234);
+    background: rgba(238, 234, 234, 0.147);
     padding: 0;
     margin: 0;
     
